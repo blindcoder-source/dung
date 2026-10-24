@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#image {
+    line-height: 350px;
+    width: 600px;
+    height: 350px;
+    border: 3px solid #333;
+    margin: 0 auto 20px auto;
+    background-color: #8e68ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.preview {
+    width: 120px;
+    height: 80px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.preview:hover, .preview:focus {
+    border-color: #333;
+    transform: scale(1.05);
+    outline: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện ảnh tương tác</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="thumbnails">
+        <img class="preview" 
+             alt="Cánh đồng hoa hướng dương nở rộ" 
+             src="https://picsum.photos/id/1018/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseout="unDo()"
+             onfocus="upDate(this)" 
+             onblur="unDo()" 
+             tabindex="0">
+
+        <img class="preview" 
+             alt="Ngọn núi tuyết phủ hùng vĩ" 
+             src="https://picsum.photos/id/1015/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseout="unDo()"
+             onfocus="upDate(this)" 
+             onblur="unDo()" 
+             tabindex="0">
+
+        <img class="preview" 
+             alt="Bờ biển hoàng hôn yên bình" 
+             src="https://picsum.photos/id/1016/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseout="unDo()"
+             onfocus="upDate(this)" 
+             onblur="unDo()" 
+             tabindex="0">
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
